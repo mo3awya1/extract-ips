@@ -93,10 +93,16 @@ Here is the complete script for quick reference:
    // Remove the link after download
    document.body.removeChild(a);
 
+# Usage
+Open the developer console in your web browser.
+Copy and paste the script into the console.
+Press Enter to execute the script.
+A file named extracted_ips.txt will automatically download, containing all the text extracted from <strong> elements.
 
+# Customizations
+Replace 'strong' in querySelectorAll with other element selectors (e.g., 'p', '.className') to extract text from different elements.
+Modify the file name by changing a.download = 'extracted_ips.txt';.
 
-
-
-
+# Enjoy automating your text extraction tasks! 🚀
 
 
