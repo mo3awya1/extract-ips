@@ -47,12 +47,10 @@ A download link is dynamically created, pointing to the generated text content.
    var a = document.createElement('a'); // Create a new <a> element
    a.href = 'data:text/plain;charset=utf-8,' + encodeURIComponent(ipsString); // Set the data URL
    a.download = 'extracted_ips.txt'; // Set the file name
-
-
-   
-
-
-
+document.createElement('a') creates a new anchor (<a>) element.
+href is set to a data URL containing the text content.
+encodeURIComponent ensures special characters in the text are properly encoded.
+download specifies the name of the file to be saved as extracted_ips.txt.
 
 
 
