@@ -52,6 +52,50 @@ href is set to a data URL containing the text content.
 encodeURIComponent ensures special characters in the text are properly encoded.
 download specifies the name of the file to be saved as extracted_ips.txt.
 
+# Step 6: Trigger the File Download
+The dynamically created link is added to the document temporarily, and a programmatic click triggers the file download.****
+
+6. **Clone the repository:**
+   ```bash
+   document.body.appendChild(a); // Add the link to the document
+   a.click(); // Simulate a click to start the download
+
+# Step 7: Clean Up
+After the file is downloaded, the temporary link is removed from the document.
+
+6. **Clone the repository:**
+   ```bash
+   document.body.removeChild(a); // Remove the link to keep the document clean
+
+# Full Script
+Here is the complete script for quick reference:
+
+7. **Clone the repository:**
+   ```bash
+   var ipElements = document.querySelectorAll('strong'); // Find all <strong> elements
+   var ips = [];
+
+   // Extract text content from elements
+   ipElements.forEach(function(e) {
+    ips.push(e.innerHTML.replace(/["']/g, '')); // Remove quotation marks and add to array
+    });
+
+   // Convert array to a single string
+   var ipsString = ips.join('\n');
+   
+   // Create a link to download the text
+   var a = document.createElement('a');
+   a.href = 'data:text/plain;charset=utf-8,' + encodeURIComponent(ipsString);
+   a.download = 'extracted_ips.txt'; // File name
+   document.body.appendChild(a);
+   a.click();
+
+   // Remove the link after download
+   document.body.removeChild(a);
+
+
+
+
 
 
 
