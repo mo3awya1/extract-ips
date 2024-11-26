@@ -11,3 +11,11 @@ The script locates all <strong> elements on the page using the querySelectorAll 
   document.querySelectorAll('strong') selects all <strong> elements in the document.
 The result is a NodeList containing all matched elements.
 
+# Step 2: Create an Array to Store Texts
+An empty array is created to store the text extracted from the <strong> elements.
+
+2. **Clone the repository:**
+   ```bash
+   var ips = []; // Initialize an empty array
+
+
