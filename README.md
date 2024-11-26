@@ -18,4 +18,32 @@ An empty array is created to store the text extracted from the <strong> elements
    ```bash
    var ips = []; // Initialize an empty array
 
+# Step 3: Extract Text Content from Elements
+Each <strong> element's inner HTML is processed to remove unnecessary quotation marks, and the cleaned text is added to the array.
+
+3. **Clone the repository:**
+   ```bash
+   ipElements.forEach(function(e) {
+    ips.push(e.innerHTML.replace(/["']/g, '')); // Remove quotation marks and add to array
+
+forEach loops through each element in the NodeList.
+e.innerHTML gets the inner content of the <strong> element.
+replace(/["']/g, '') removes any single or double quotes from the text.
+
+# Step 4: Convert Array to a String
+The array of text is joined into a single string with each entry separated by a new line.
+
+4. **Clone the repository:**
+   ```bash
+   var ipsString = ips.join('\n'); // Combine array items into a single string with line breaks
+
+join('\n') ensures each extracted text appears on a new line in the output.
+
+
+
+
+
+
+
+
 
