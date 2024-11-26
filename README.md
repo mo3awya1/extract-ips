@@ -44,9 +44,11 @@ A download link is dynamically created, pointing to the generated text content.
 
 5. **Clone the repository:**
    ```bash
- var a = document.createElement('a'); // Create a new <a> element
-a.href = 'data:text/plain;charset=utf-8,' + encodeURIComponent(ipsString); // Set the data URL
-a.download = 'extracted_ips.txt'; // Set the file name
+   var a = document.createElement('a'); // Create a new <a> element
+   a.href = 'data:text/plain;charset=utf-8,' + encodeURIComponent(ipsString); // Set the data URL
+   a.download = 'extracted_ips.txt'; // Set the file name
+
+
    
 
 
