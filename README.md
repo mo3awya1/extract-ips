@@ -39,6 +39,15 @@ The array of text is joined into a single string with each entry separated by a 
 
 join('\n') ensures each extracted text appears on a new line in the output.
 
+# Step 5: Create a Download Link
+A download link is dynamically created, pointing to the generated text content.
+
+5. **Clone the repository:**
+   ```bash
+ var a = document.createElement('a'); // Create a new <a> element
+a.href = 'data:text/plain;charset=utf-8,' + encodeURIComponent(ipsString); // Set the data URL
+a.download = 'extracted_ips.txt'; // Set the file name
+   
 
 
 
