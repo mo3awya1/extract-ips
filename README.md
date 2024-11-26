@@ -24,7 +24,7 @@ Each <strong> element's inner HTML is processed to remove unnecessary quotation 
 3. **Clone the repository:**
    ```bash
    ipElements.forEach(function(e) {
-    ips.push(e.innerHTML.replace(/["']/g, '')); // Remove quotation marks and add to array
+   ips.push(e.innerHTML.replace(/["']/g, '')); // Remove quotation marks and add to array
 
 forEach loops through each element in the NodeList.
 e.innerHTML gets the inner content of the <strong> element.
