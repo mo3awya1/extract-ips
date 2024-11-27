@@ -88,7 +88,7 @@ Here is the complete script for quick reference:
    // Create a link to download the text
    var a = document.createElement('a');
    a.href = 'data:text/plain;charset=utf-8,' + encodeURIComponent(ipsString);
-   a.download = 'extracted_ips.txt'; // File name
+   a.download = 'bazoka_ips.txt'; // File name
    document.body.appendChild(a);
    a.click();
 
@@ -100,7 +100,7 @@ Here is the complete script for quick reference:
 Open the developer console in your web browser.
 Copy and paste the script into the console.
 Press Enter to execute the script.
-A file named extracted_ips.txt will automatically download, containing all the text extracted from <strong> elements.
+A file named bazoka_ips.txt will automatically download, containing all the text extracted from <strong> elements.
 
 # Customizations
 Replace 'strong' in querySelectorAll with other element selectors (e.g., 'p', '.className') to extract text from different elements.
