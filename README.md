@@ -104,7 +104,7 @@ A file named extracted_ips.txt will automatically download, containing all the t
 Replace 'strong' in querySelectorAll with other element selectors (e.g., 'p', '.className') to extract text from different elements.
 Modify the file name by changing a.download = 'bazoka_ips.txt';.
 
-# ✨ Steps to Extract Text Using the Script (Firefox 🦊 Browser Required) ✨
+# Steps to Extract Text Using the Script (Firefox 🦊 Browser Required) 
 Search for the Desired Item
 First, search for the item you're interested in on the website.
 
