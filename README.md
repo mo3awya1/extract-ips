@@ -104,24 +104,28 @@ A file named extracted_ips.txt will automatically download, containing all the t
 Replace 'strong' in querySelectorAll with other element selectors (e.g., 'p', '.className') to extract text from different elements.
 Modify the file name by changing a.download = 'bazoka_ips.txt';.
 
-# Steps to Extract Text Using the Script (Firefox Browser Required)
+# ✨ Steps to Extract Text Using the Script (Firefox 🦊 Browser Required) ✨
 Search for the Desired Item
 First, search for the item you're interested in on the website.
 
-1.Go to the "Facet Analysis" Section
-After finding what you're looking for, navigate to the "Facet Analysis" section of the page.
+# 🔍 Search for the Desired Item
+First, perform a search for the item you want to extract on the website.
 
-2.Open Developer Tools
+# 🔬 Go to the "Facet Analysis" Section
+Once you've found what you're looking for, navigate to the "Facet Analysis" section of the page.
+
+# 🛠️ Open Developer Tools
 Right-click anywhere on the page, then select Inspect or press F12 to open the browser's Developer Tools.
 
-3.Go to the Console Tab
-In the Developer Tools window, switch to the Console tab.
+# 💻 Switch to the Console Tab
+In the Developer Tools window, switch to the Console tab where you can run JavaScript code.
 
-4.Paste the Code
-Copy the provided script and paste it into the console.
+# 📋 Paste the Code
+Copy the provided script and paste it into the console window.
 
-5.Execute the Script
-Press Enter to run the script. The script will automatically generate a .txt file with the extracted text, which will be available for download.
+🚀 Execute the Script
+Press Enter to execute the script. The script will automatically generate a .txt file containing the extracted text, ready for download.
+
 
 # Enjoy automating your text extraction tasks! 🚀
 
