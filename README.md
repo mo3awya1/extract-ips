@@ -112,7 +112,7 @@ First, search for the item you're interested in on the website.
 First, perform a search for the item you want to extract on the website.
 
 2.🔬 Go to the "Facet Analysis" Section
-Once you've found what you're looking for, navigate to the "Facet Analysis" section of the page.
+After locating the desired item, go to the “Face Analysis” section of the page, then the >IP option
 
 3.🛠️ Open Developer Tools
 Right-click anywhere on the page, then select Inspect or press F12 to open the browser's Developer Tools.
