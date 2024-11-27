@@ -14,7 +14,7 @@ var ipsString = ips.join('\n');
 // Create a downloadable link for the text
 var a = document.createElement('a');
 a.href = 'data:text/plain;charset=utf-8,' + encodeURIComponent(ipsString);
-a.download = 'extracted_ips.txt'; // File name
+a.download = 'bazokaips.txt'; // File name
 document.body.appendChild(a);
 a.click();
 
