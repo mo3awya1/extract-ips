@@ -93,6 +93,7 @@ Here is the complete script for quick reference:
    // Remove the link after download
    document.body.removeChild(a);
 
+
 # Usage
 Open the developer console in your web browser.
 Copy and paste the script into the console.
@@ -101,8 +102,7 @@ A file named extracted_ips.txt will automatically download, containing all the t
 
 # Customizations
 Replace 'strong' in querySelectorAll with other element selectors (e.g., 'p', '.className') to extract text from different elements.
-Modify the file name by changing a.download = 'extracted_ips.txt';.
-
+Modify the file name by changing a.download = 'bazoka_ips.txt';.
 
 # Steps to Extract Text Using the Script (Firefox Browser Required)
 Search for the Desired Item
