@@ -108,19 +108,19 @@ Modify the file name by changing a.download = 'bazoka_ips.txt';.
 Search for the Desired Item
 First, search for the item you're interested in on the website.
 
-# 🔍 Search for the Desired Item
+1.🔍 Search for the Desired Item
 First, perform a search for the item you want to extract on the website.
 
-# 🔬 Go to the "Facet Analysis" Section
+2.🔬 Go to the "Facet Analysis" Section
 Once you've found what you're looking for, navigate to the "Facet Analysis" section of the page.
 
-# 🛠️ Open Developer Tools
+3.🛠️ Open Developer Tools
 Right-click anywhere on the page, then select Inspect or press F12 to open the browser's Developer Tools.
 
-# 💻 Switch to the Console Tab
+4.💻 Switch to the Console Tab
 In the Developer Tools window, switch to the Console tab where you can run JavaScript code.
 
-# 📋 Paste the Code
+5.📋 Paste the Code
 Copy the provided script and paste it into the console window.
 
 🚀 Execute the Script
