@@ -1,3 +1,5 @@
+<img src="https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExZjI1MmowaWtpNGM3NDNmcXNuMmVjbGFlMTEyYW43aGIzOHQxYTE2cSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/yeMPFLYV3O4D3JwgRK/giphy.gif" width="850" height="auto" /> 
+
 # Script Explanation: Extract Text from <strong> Elements
 This script extracts text content from all <strong> elements on a webpage and downloads them as a text file. Below is a step-by-step explanation of how the script works.
 
